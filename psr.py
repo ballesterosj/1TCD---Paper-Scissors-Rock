@@ -22,7 +22,7 @@ if psr_choice == "paper":
 
 #directly check program_choice, if program_choice is scissors and you chose paper, you lose
     elif program_choice == "scissors":
-        print("My precious program wins and you lose!")
+        print("You lose!")
     
 if psr_choice == "rock":
     if psr_choice == program_choice:
@@ -30,7 +30,7 @@ if psr_choice == "rock":
     elif program_choice == "scissors":
         print("You win!")
     elif program_choice == "paper":
-        print("My precious program wins and you lose!")
+        print("You lose!")
 
 if psr_choice == "scissors":
     if psr_choice == program_choice:
@@ -38,4 +38,4 @@ if psr_choice == "scissors":
     elif program_choice == "paper":
         print("You win!")
     elif program_choice == "rock":
-        print("My precious program wins and you lose!")
+        print("You lose!")
