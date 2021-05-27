@@ -1,6 +1,5 @@
 #generate random paper, scissors, rock for computer
 import random
-
 #this is the randomiser for the program, chooses between paper, scissors, rock
 psr = ("paper", "rock", "scissors")
 program_choice = random.choice(psr)
@@ -15,11 +14,9 @@ if psr_choice == "paper":
 #compares directly with the random program_choice if equal, will result in a draw
     if psr_choice == program_choice:
         print("It's a draw!")
-
 #checks program_choice, if program_choice is rock, will result in win
     elif program_choice == "rock":
         print("You win!")
-
 #directly check program_choice, if program_choice is scissors and you chose paper, you lose
     elif program_choice == "scissors":
         print("You lose!")
