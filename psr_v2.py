@@ -34,20 +34,20 @@ while psr_choice != 'exit':
         elif program_choice == "scissors":
             print("You lose!")
     
-        if psr_choice == "rock":
-            if psr_choice == program_choice:
-                print("It's a draw!")
-            elif program_choice == "scissors":
-                print("You win!")
-            elif program_choice == "paper":
-                print("You lose!")
+    if psr_choice == "rock":
+        if psr_choice == program_choice:
+            print("It's a draw!")
+        elif program_choice == "scissors":
+            print("You win!")
+        elif program_choice == "paper":
+            print("You lose!")
 
-        if psr_choice == "scissors":
-            if psr_choice == program_choice:
-                print("It's a draw!")
-            elif program_choice == "paper":
-                print("You win!")
-            elif program_choice == "rock":
-                print("You lose!")
+    if psr_choice == "scissors":
+        if psr_choice == program_choice:
+            print("It's a draw!")
+        elif program_choice == "paper":
+            print("You win!")
+        elif program_choice == "rock":
+            print("You lose!")
             
 print('Goodbye')
