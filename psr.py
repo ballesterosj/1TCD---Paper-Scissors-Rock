@@ -1,3 +1,12 @@
+#-------------------------------------------------------------------------------
+
+# Name:         psr
+# Purpose:      Paper, Scissors, Rock game
+# Author:       Jo-Lo Ballesteros
+# Created:      28/05/2021
+
+#-------------------------------------------------------------------------------
+
 #generate random paper, scissors, rock for computer
 import random
 #this is the randomiser for the program, chooses between paper, scissors, rock
